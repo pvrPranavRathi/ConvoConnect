@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030799559983",
+    "project_id": "convoconnect-7ea99",
+    "storage_bucket": "convoconnect-7ea99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030799559983:android:ab7efc54197e12e80d65da",
+        "android_client_info": {
+          "package_name": "com.example.convoconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAorhu_7yOpHFBTXyzf1Giv1_k5oaz0l_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

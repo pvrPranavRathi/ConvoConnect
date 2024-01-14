@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="#292929"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/backarrow"
+        android:layout_width="24dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:tint="#E8E3E3"
+        tools:srcCompat="@drawable/backarrow" />
+
+    <LinearLayout
+        android:id="@+id/linearup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backarrow"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/user" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/plusicon"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Username:"
+                android:textColor="#F4EFEF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:inputType="text"
+                android:textColor="#F4F1F1"
+                android:textColorHint="#F3EAEA" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="About:"
+                android:textColor="#F4EFEF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter about you"
+                android:inputType="text"
+                android:textColor="#F4F1F1"
+                android:textColorHint="#F3EAEA"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:text="Save"
+            android:textColor="#292929">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineardown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linear_bg"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:text="Privacy Policy"
+            android:textColor="#292929"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:text="About us"
+            android:textColor="#292929"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:text="Invite a friend"
+            android:textColor="#292929"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:text="Notification"
+            android:textColor="#292929"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:text="Help"
+            android:textColor="#292929"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
