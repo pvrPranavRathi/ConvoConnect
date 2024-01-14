@@ -1,5 +1,6 @@
 Messenging Application: Convo Connect
 
+Key Functionalities:
 1. Account Creation: Users can create accounts by providing essential information.
 2. Authentication: Firebase ensures secure user authentication using email and password.
 3. Login: Users can sign in with their registered credentials.
