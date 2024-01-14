@@ -1,5 +1,11 @@
 Messenging Application: Convo Connect
 
+## Team Members
+- Pranav Rathi([pvrPranavRathi](https://github.com/pvrPranavRathi))
+- Devesh Borkar([devesh813](https://github.com/devesh813))
+- Hardik Thakkar([@Hardikt12](https://github.com/Hardikt12))
+- Arya Narlawar([aryanarlawar](https://github.com/aryanarlawar))
+
 Key Functionalities:
 1. Account Creation: Users can create accounts by providing essential information.
 2. Authentication: Firebase ensures secure user authentication using email and password.
